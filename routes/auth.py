@@ -12,6 +12,7 @@ def current_user():
     else:
         # 匿名用户
         # return User.niming()
+        
         return None
 
 

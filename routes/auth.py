@@ -11,7 +11,8 @@ def current_user():
         return User.query.get(int(uid))
     else:
         # 匿名用户
-        return User.niming()
+        # return User.niming()
+        return None
 
 
 @main.route('/')
